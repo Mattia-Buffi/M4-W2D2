@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+.picInfo{
+ opacity: 0;
+ background-color: grey;
+}
+.picInfo:hover{
+    opacity: 0.5;
+    transition: opacity .5s ease-out;
+}
